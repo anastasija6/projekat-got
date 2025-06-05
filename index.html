@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Game of Thrones</title>
+  <link rel="stylesheet" href="bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+  <script src="wow.min.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+
+    <script src="main.js"></script>
+  <script src="wow.min.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Game of Thrones</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <ul class="navbar-nav ">
+              <a class="nav-link active" href="#">Početna</a>
+              <a class="nav-link" href="#likovi">Likovi</a>
+              <a class="nav-link" href="#kuce">Kuće</a>
+              <a class="nav-link" href="#sezone">Sezone</a>
+              <a class="nav-link" href="#mapa">Mapa</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+
+  
+  <header class="hero-section text-white text-center d-flex align-items-center justify-content-center">
+    <div class="container">
+      <h1 class="display-3 fw-bold wow animate__animated animate__fadeInLeft ">Dobrodošli u Westeros</h1>
+      <p class="lead wow animate__animated animate__fadeInRight">Svet zmajeva, mačeva i izdaje – upoznaj priču koja je promenila televiziju.</p>
+    </div>
+  </header>
+
+  <!-- o seriji-->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">O Seriji</h2>
+      <p class="lead text-center">
+        *Game of Thrones* je epska fantazija zasnovana na romanima Džordža R. R. Martina. Serija prati sukobe plemićkih kuća koje se bore za kontrolu nad Železnim prestolom, dok drevna pretnja dolazi sa Severnog zida. Serija je poznata po svojim šokantnim obrtima, dubokim likovima i raskošnoj produkciji.
+      </p>
+    </div>
+  </section>
+
+  <!-- sekcija likovi -->
+  <section id="likovi" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Glavni likovi</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 wow animate__animated animate__zoomIn">
+            <img src="deneris.jpeg" class="card-img-top" alt="Daenerys">
+            <div class="card-body">
+              <h5 class="card-title">Daenerys Targaryen</h5>
+              <p class="card-text">Izgnana princeza koja postaje "Majka zmajeva". Njena priča je putovanje od bespomoćne naslednice do ambiciozne vladarke koja želi da oslobodi svet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 wow animate__animated animate__zoomIn" data-wow-delay=".3s">
+            <img src="jon.jpg" class="card-img-top" alt="Jon Snow">
+            <div class="card-body">
+              <h5 class="card-title">Jon Snow</h5>
+              <p class="card-text">Nezakoniti sin Neda Starka, poznat po svojoj časti i lojalnosti. Njegovo poreklo skriva veliku tajnu koja menja tok istorije Westerosa.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 wow animate__animated animate__zoomIn" data-wow-delay="0.6s">
+            <img src="lanster.jpg" class="card-img-top" alt="Tyrion">
+            <div class="card-body">
+              <h5 class="card-title">Tyrion Lannister</h5>
+              <p class="card-text">Najmlađi član porodice Lannister. Njegova oštroumnost, snalažljivost i oštar jezik ga vode od izopćenika do kraljevog savetnika.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- sekcija kuće -->
+  <section id="kuce" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Kuće Westerosa</h2>
+      <p class="text-center mb-5">
+        Westeros je dom mnogim plemićkim kućama, od kojih svaka ima svoju istoriju, simbol i moto. U nastavku su najpoznatije kuće koje oblikuju sudbinu kontinenta.
+      </p>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card text-center h-100 wow animate__animated animate__fadeInUp">
+            <img src="stark.jpg" class="card-img-top p-3" alt="Stark">
+            <div class="card-body">
+              <h5 class="card-title">Kuća Stark</h5>
+              <p class="card-text">Plemstvo Severa, poznati po svojoj časti i lojalnosti. Njihov moto: "Zima dolazi."</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center h-100  wow animate__animated animate__fadeInDown" data-wow-delay=".3s">
+            <img src="lanister.jpg" class="card-img-top p-3" alt="Lannister">
+            <div class="card-body">
+              <h5 class="card-title">Kuća Lannister</h5>
+              <p class="card-text">Bogata kuća sa sedištem u Rtu Kasterlija. Poznati po frazi: "Lannister uvek plaća svoje dugove."</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center h-100 wow animate__animated animate__fadeInUp" data-wow-delay=".6s">
+            <img src="targaryen.jpg" class="card-img-top p-3" alt="Targaryen">
+            <div class="card-body">
+              <h5 class="card-title">Kuća Targaryen</h5>
+              <p class="card-text">Potomci drevne Valyrie, vladari zmajeva i bivši kraljevi Westerosa. Moto: "Vatra i krv."</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center h-100  wow animate__animated animate__fadeInDown" data-wow-delay=".9s">
+            <img src="baratheon.jpg" class="card-img-top p-3" alt="Baratheon">
+            <div class="card-body">
+              <h5 class="card-title">Kuća Baratheon</h5>
+              <p class="card-text">Ratnici iz Olujne zemlje koji su osvojili presto. Moto: "Naš je gnev."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sezone" class="py-5">
+    <div class="container wow animate__animated animate__fadeInTopLeft">
+      <h2 class="text-center mb-4">Sezone</h2>
+  
+      <div class="accordion" id="accordionSezone">
+  
+        <!-- sezona 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+              Sezona 1
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionSezone">
+            <div class="accordion-body">
+              Ned Stark postaje kraljeva desna ruka i otkriva opasnu tajnu, što vodi ka njegovom tragičnom kraju.
+            </div>
+          </div>
+        </div>
+  
+        <!-- sezona 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+              Sezona 2
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionSezone">
+            <div class="accordion-body">
+              Rat pet kraljeva počinje, dok Daenerys kreće na put u Essosu sa svojim zmajevima.
+            </div>
+          </div>
+        </div>
+  
+        <!-- 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+              Sezona 3
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionSezone">
+            <div class="accordion-body">
+              Krvava svadba briše porodicu Stark sa političke scene. Tyrion je prisiljen da se oženi Sansom.
+            </div>
+          </div>
+        </div>
+  
+        <!-- 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+              Sezona 4
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionSezone">
+            <div class="accordion-body">
+              Kralj Joffrey umire, a Tyrion biva optužen za ubistvo. Bitka kod Zida odlučuje sudbinu Noćne straže.
+            </div>
+          </div>
+        </div>
+  
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+              Sezona 5
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionSezone">
+            <div class="accordion-body">
+              Cersei pada u nemilost religioznih fanatika. Jon biva ubijen od svojih saboraca.
+            </div>
+          </div>
+        </div>
+  
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+              Sezona 6
+            </button>
+          </h2>
+          <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionSezone">
+            <div class="accordion-body">
+              Jon Snow se vraća u život. Bitka za Winterfell završava Ramsayevim porazom.
+            </div>
+          </div>
+        </div>
+  
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+              Sezona 7
+            </button>
+          </h2>
+          <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionSezone">
+            <div class="accordion-body">
+              Zmajevi stižu u Westeros. Zid pada pod napadom Noćnog kralja i zmaja.
+            </div>
+          </div>
+        </div>
+  
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading8">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+              Sezona 8
+            </button>
+          </h2>
+          <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionSezone">
+            <div class="accordion-body">
+              Završna borba za presto. Sudbina Daenerys, Jon i Westerosa je zapečaćena.
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  
+
+
+  <section id="mapa" class="py-5">
+    <div class="container text-center wow animate__animated animate__fadeInTopRight">
+      <h2 class="mb-4">Mapa Westerosa</h2>
+      <p>Klikni na mapu za uvećani prikaz.</p>
+      <img src="mapa.jpg" class="img-fluid rounded shadow-sm" style="max-width: 400px; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#mapModal" alt="Mapa Westerosa">
+    </div>
+  </section>
+
+  <div class="modal fade" id="mapModal" tabindex="-1" aria-labelledby="mapModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-content bg-dark">
+        <div class="modal-header border-0">
+          <h5 class="modal-title text-white" id="mapModalLabel">Mapa Westerosa</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Zatvori"></button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="mapa.jpg" class="img-fluid rounded" alt="Mapa">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">Anastasija Đukić IT32</p>
+    </div>
+  </footer>
+
+
+</body>
+</html>
